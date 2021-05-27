@@ -27,14 +27,14 @@ class ZebraEngineEventHandler {
   // ignore: public_member_api_docs
   void process(String eventName, Map<String, dynamic> map) {
     switch (eventName) {
-      // case 'ReadRfid':
-      //   List<dynamic> rfidDatas = map["datas"];
-      //   List<RfidData> list = [];
-      //   for (var i = 0; i < rfidDatas.length; i++) {
-      //     list.add(RfidData.fromJson(Map<String, dynamic>.from(rfidDatas[i])));
-      //   }
-      //   readRfidCallback?.call(list);
-      //   break;
+      case 'ReadRfid':
+        List<dynamic> rfidDatas = map["datas"];
+        List<RfidData> list = [];
+        for (var i = 0; i < rfidDatas.length; i++) {
+          list.add(RfidData.fromJson(Map<String, dynamic>.from(rfidDatas[i])));
+        }
+        readRfidCallback?.call(list);
+        break;
       case 'Error':
         var ss = ErrorResult.fromJson(map);
         errorCallback.call(ss);
