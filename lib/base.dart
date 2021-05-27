@@ -4,19 +4,23 @@ part 'base.g.dart';
 typedef ErrorCallback = void Function(ErrorResult err);
 typedef ReadRfidCallback = void Function(List<RfidData> datas);
 typedef ConnectionStatusCallback = void Function(ReaderConnectionStatus status);
-
+typedef IsPressedCallBack = void Function(IsPressedStatus status);
+//
 class ZebraEngineEventHandler {
   ZebraEngineEventHandler(
       {this.readRfidCallback,
       this.errorCallback,
-      this.connectionStatusCallback});
+      this.connectionStatusCallback,
+      this.isPressedCallBack
+      });
 
   ///读取rfid标签回调
   ReadRfidCallback readRfidCallback;
 
   ///连接状态
   ConnectionStatusCallback connectionStatusCallback;
-
+  IsPressedCallBack isPressedCallBack;
+  //
   ///异常错误回调
   ErrorCallback errorCallback;
 
@@ -40,11 +44,27 @@ class ZebraEngineEventHandler {
             ReaderConnectionStatus.values[map["status"] as int];
         connectionStatusCallback.call(status);
         break;
+      case 'TriggerStatus':
+        IsPressedStatus status =
+        IsPressedStatus.values[map["status"]];
+        isPressedCallBack.call(status);
+        break;
     }
   }
 }
 
 enum ReaderConnectionStatus {
+  ///未连接
+  UnConnection,
+
+  ///连接完成
+  ConnectionRealy,
+
+  ///连接出错
+  ConnectionError,
+}
+//
+enum IsPressedStatus {
   ///未连接
   UnConnection,
 

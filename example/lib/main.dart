@@ -90,6 +90,13 @@ class _MyAppState extends State<MyApp> {
                       connectionStatus = status;
                     });
                   },
+                  isPressedCallBack: (pressed) {
+                    setState(() {
+                      ZebraRfid.toast('Is pressed');
+                      print("Is pressed");
+                      print(pressed);
+                    });
+                  },
                 ));
                 ZebraRfid.connect();
               },

@@ -28,6 +28,7 @@ public class Base {
         static String Error = "Error";
         static String ReadRfid = "ReadRfid";
         static String ConnectionStatus = "ConnectionStatus";
+        static String TriggerStatus = "TriggerStatus";
     }
 
 

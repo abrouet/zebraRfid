@@ -288,6 +288,9 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
             performInventory();
         } else
             stopInventory();
+        HashMap<String, Object> map =new HashMap<>();
+        map.put("pressed",pressed);
+        emit(Base.RfidEngineEvents.TriggerStatus,map);
     }
 
 
