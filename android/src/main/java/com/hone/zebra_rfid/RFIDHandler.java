@@ -291,7 +291,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
 
     public void handleTriggerPress(boolean pressed) {
         if (pressed) {
-            performInventory();
+//            performInventory();
         } else
             stopInventory();
     }

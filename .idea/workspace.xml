@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b90efe2-b962-424b-b0e3-c3266db4dd74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/RFIDHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/RFIDHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622080186391</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Debug.">
+      <created>1622080599730</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622080599730</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -87,11 +93,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Debug." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="121" key="CommitChangelistDialog2" timestamp="1622080186027">
+    <state x="413" y="121" key="CommitChangelistDialog2" timestamp="1622080599454">
       <screen x="0" y="25" width="1680" height="952" />
     </state>
     <state x="413" y="111" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1621698612121" />
-    <state x="413" y="121" key="CommitChangelistDialog2/0.25.1680.952@0.25.1680.952" timestamp="1622080186027" />
+    <state x="413" y="121" key="CommitChangelistDialog2/0.25.1680.952@0.25.1680.952" timestamp="1622080599454" />
     <state width="1638" height="253" key="GridCell.Tab.0.bottom" timestamp="1622063914931">
       <screen x="0" y="25" width="1680" height="952" />
     </state>
@@ -113,11 +119,11 @@
     </state>
     <state width="500" height="444" key="SwitcherDM/0.25.1680.952@0.25.1680.952" timestamp="1622079978697" />
     <state width="500" height="445" key="SwitcherDM/0.25.1680.956@0.25.1680.956" timestamp="1621991525753" />
-    <state x="440" y="275" key="Vcs.Push.Dialog.v2" timestamp="1622080188226">
+    <state x="440" y="275" key="Vcs.Push.Dialog.v2" timestamp="1622080615870">
       <screen x="0" y="25" width="1680" height="952" />
     </state>
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1621698614505" />
-    <state x="440" y="275" key="Vcs.Push.Dialog.v2/0.25.1680.952@0.25.1680.952" timestamp="1622080188226" />
+    <state x="440" y="275" key="Vcs.Push.Dialog.v2/0.25.1680.952@0.25.1680.952" timestamp="1622080615870" />
     <state x="541" y="257" width="674" height="490" key="find.popup" timestamp="1622063594520">
       <screen x="0" y="25" width="1680" height="952" />
     </state>
