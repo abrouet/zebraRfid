@@ -46,7 +46,7 @@ class ZebraEngineEventHandler {
         break;
       case 'TriggerStatus':
         IsPressedStatus status =
-        IsPressedStatus.values[map["status"]];
+        IsPressedStatus.values[map["status"] as int];
         isPressedCallBack.call(status);
         break;
     }

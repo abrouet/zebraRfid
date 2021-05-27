@@ -43,6 +43,17 @@ public class Base {
         ConnectionError,
     }
 
+    enum TriggerStatus {
+        ///未连接
+        UnConnection,
+
+        ///连接完成
+        ConnectionRealy,
+
+        ///连接出错
+        ConnectionError,
+    }
+
 
 
     public static class RfidData{
