@@ -148,7 +148,9 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
                 }
                 HashMap<String, Object> map =new HashMap<>();
                 map.put("status",status.ordinal());
-                emit(Base.RfidEngineEvents.ConnectionStatus,map);
+//                emit(Base.RfidEngineEvents.ConnectionStatus,map);
+//
+                emit(Base.RfidEngineEvents.TriggerStatus,map);
             }
 
             @Override
