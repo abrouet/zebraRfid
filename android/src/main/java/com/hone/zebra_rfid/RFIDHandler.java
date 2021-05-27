@@ -262,9 +262,6 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
                         @Override
                         protected Void doInBackground(Void... voids) {
                             handleTriggerPress(true);
-                            HashMap<String, Object> map =new HashMap<>();
-                            map.put("pressed",true);
-                            emit(Base.RfidEngineEvents.TriggerStatus,map);
                             return null;
                         }
                     }.execute();
@@ -274,9 +271,6 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
                     @Override
                     protected Void doInBackground(Void... voids) {
                         handleTriggerPress(false);
-                        HashMap<String, Object> map =new HashMap<>();
-                        map.put("pressed",false);
-                        emit(Base.RfidEngineEvents.TriggerStatus,map);
                         return null;
                     }
                 }.execute();
@@ -291,9 +285,14 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
 
     public void handleTriggerPress(boolean pressed) {
         if (pressed) {
-//            performInventory();
-        } else
+            performInventory();
+        } else {
             stopInventory();
+        }
+
+        HashMap<String, Object> map =new HashMap<>();
+        map.put("pressed",pressed);
+        emit(Base.RfidEngineEvents.TriggerStatus,map);
     }
 
 
