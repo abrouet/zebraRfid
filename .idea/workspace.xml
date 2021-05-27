@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b90efe2-b962-424b-b0e3-c3266db4dd74" name="Default Changelist" comment="">
+    <list default="true" id="2b90efe2-b962-424b-b0e3-c3266db4dd74" name="Default Changelist" comment="added trigger">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/RFIDHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/RFIDHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622076004268</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added trigger">
+      <created>1622076136931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622076136931</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -71,11 +81,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="added trigger" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="121" key="CommitChangelistDialog2" timestamp="1622076003922">
+    <state x="413" y="121" key="CommitChangelistDialog2" timestamp="1622076442491">
       <screen x="0" y="25" width="1680" height="952" />
     </state>
     <state x="413" y="111" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1621698612121" />
-    <state x="413" y="121" key="CommitChangelistDialog2/0.25.1680.952@0.25.1680.952" timestamp="1622076003922" />
+    <state x="413" y="121" key="CommitChangelistDialog2/0.25.1680.952@0.25.1680.952" timestamp="1622076442491" />
     <state width="1638" height="253" key="GridCell.Tab.0.bottom" timestamp="1622063914931">
       <screen x="0" y="25" width="1680" height="952" />
     </state>
@@ -92,16 +102,16 @@
       <screen x="0" y="25" width="1680" height="952" />
     </state>
     <state width="1638" height="253" key="GridCell.Tab.0.right/0.25.1680.952@0.25.1680.952" timestamp="1622063914920" />
-    <state width="500" height="444" key="SwitcherDM" timestamp="1622076054770">
+    <state width="500" height="444" key="SwitcherDM" timestamp="1622079978697">
       <screen x="0" y="25" width="1680" height="952" />
     </state>
-    <state width="500" height="444" key="SwitcherDM/0.25.1680.952@0.25.1680.952" timestamp="1622076054770" />
+    <state width="500" height="444" key="SwitcherDM/0.25.1680.952@0.25.1680.952" timestamp="1622079978697" />
     <state width="500" height="445" key="SwitcherDM/0.25.1680.956@0.25.1680.956" timestamp="1621991525753" />
-    <state x="440" y="275" key="Vcs.Push.Dialog.v2" timestamp="1622076006143">
+    <state x="440" y="275" key="Vcs.Push.Dialog.v2" timestamp="1622076138656">
       <screen x="0" y="25" width="1680" height="952" />
     </state>
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1621698614505" />
-    <state x="440" y="275" key="Vcs.Push.Dialog.v2/0.25.1680.952@0.25.1680.952" timestamp="1622076006143" />
+    <state x="440" y="275" key="Vcs.Push.Dialog.v2/0.25.1680.952@0.25.1680.952" timestamp="1622076138656" />
     <state x="541" y="257" width="674" height="490" key="find.popup" timestamp="1622063594520">
       <screen x="0" y="25" width="1680" height="952" />
     </state>
