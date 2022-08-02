@@ -51,15 +51,15 @@ public class ZebraRfidPlugin implements FlutterPlugin, MethodCallHandler, Stream
                 result.success("Android " + android.os.Build.VERSION.RELEASE);
                 break;
             case "toast":
-                String txt=call.argument("text");
+                String txt = call.argument("text");
                 Toast.makeText(context, txt, Toast.LENGTH_LONG).show();
                 break;
             case "connect":
-               // boolean  isBluetooth=call.argument("isBluetooth");
+                // boolean  isBluetooth=call.argument("isBluetooth");
                 rfidHandler.connect(result);
                 break;
             case "connectDevice":
-                ReaderDevice readerDevice=call.argument("readerDevice");
+                Integer readerDevice = call.argument("device");
                 // boolean  isBluetooth=call.argument("isBluetooth");
                 rfidHandler.ConnectDevice(result, readerDevice);
                 break;
@@ -98,8 +98,6 @@ public class ZebraRfidPlugin implements FlutterPlugin, MethodCallHandler, Stream
         Log.w(TAG, "cancelling listener");
         sink = null;
     }
-
-
 
 
 }

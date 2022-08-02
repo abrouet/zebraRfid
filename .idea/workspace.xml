@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="758bc1f1-6df0-4113-8566-40a75b90371e" name="Default Changelist" comment="Updated to 0.0.4">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/RFIDHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/RFIDHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/ZebraRfidPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/ZebraRfidPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/zebra_rfid.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/zebra_rfid.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zebra_rfid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zebra_rfid.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

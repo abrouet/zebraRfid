@@ -102,7 +102,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
     }
 
     @SuppressLint("StaticFieldLeak")
-    public void ConnectDevice(final Result result, final ReaderDevice connectReaderDevice) {
+    public void ConnectDevice(final Result result, final Integer connectReaderDevice) {
         AutoConnectDeviceTask = new AsyncTask<Void, Void, String>() {
             @Override
             protected String doInBackground(Void... voids) {
@@ -112,7 +112,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
                     if (readerDevice == null) {
                         ArrayList<ReaderDevice> readersListArray = readers.GetAvailableRFIDReaderList();
                         if (readersListArray.size() > 0) {
-                            readerDevice = connectReaderDevice;
+                            readerDevice = readersListArray.get(connectReaderDevice);
                             reader = readerDevice.getRFIDReader();
                         } else {
                             return "没有检查到可连接设备";

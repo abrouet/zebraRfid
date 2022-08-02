@@ -40,10 +40,9 @@ class ZebraRfid {
   }
 
   ///连接设备
-  static Future<dynamic> connectDevice() async {
+  static Future<dynamic> connectDevice(int connectDevice) async {
     try {
-      await _addEventChannelHandler();
-      var result = await _channel.invokeMethod('connectDevice');
+      var result = await _channel.invokeMethod('connectDevice', {"device": connectDevice});
       return result;
     } catch (e) {
       var a = e;
