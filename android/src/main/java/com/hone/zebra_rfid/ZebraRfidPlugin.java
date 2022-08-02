@@ -6,6 +6,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
+import com.zebra.rfid.api3.ReaderDevice;
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.plugin.common.EventChannel;
 import io.flutter.plugin.common.EventChannel.StreamHandler;
@@ -56,6 +57,11 @@ public class ZebraRfidPlugin implements FlutterPlugin, MethodCallHandler, Stream
             case "connect":
                // boolean  isBluetooth=call.argument("isBluetooth");
                 rfidHandler.connect(result);
+                break;
+            case "connectDevice":
+                ReaderDevice readerDevice=call.argument("readerDevice");
+                // boolean  isBluetooth=call.argument("isBluetooth");
+                rfidHandler.ConnectDevice(result, readerDevice);
                 break;
             case "getReadersList":
                 rfidHandler.getReadersList();

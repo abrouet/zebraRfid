@@ -30,6 +30,27 @@ class ZebraRfid {
   }
 
   ///连接设备
+  static Future<dynamic> getReadersList() async {
+    try {
+      var result = await _channel.invokeMethod('getReadersList');
+      return result;
+    } catch (e) {
+      var a = e;
+    }
+  }
+
+  ///连接设备
+  static Future<dynamic> connectDevice() async {
+    try {
+      await _addEventChannelHandler();
+      var result = await _channel.invokeMethod('connectDevice');
+      return result;
+    } catch (e) {
+      var a = e;
+    }
+  }
+
+  ///连接设备
   static Future<dynamic> connect() async {
     try {
       await _addEventChannelHandler();
@@ -55,6 +76,7 @@ class ZebraRfid {
   }
 
   static StreamSubscription<dynamic> _sink;
+
   static Future<void> _addEventChannelHandler() async {
     if (_sink == null) {
       _sink = _eventChannel.receiveBroadcastStream().listen((event) {
