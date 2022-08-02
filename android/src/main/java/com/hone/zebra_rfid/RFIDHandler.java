@@ -286,7 +286,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
             return readersListArray;
         } catch (InvalidUsageException e) {
             Log.d(TAG, "Something went wrong ");
-            emit(Base.RfidEngineEvents.Error, transitionEntity(Base.ErrorResult.error(error)));
+            emit(Base.RfidEngineEvents.Error, transitionEntity(Base.ErrorResult.error(e.getMessage())));
         }
         return readersListArray;
     }
