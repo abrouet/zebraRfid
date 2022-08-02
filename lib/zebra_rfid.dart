@@ -33,8 +33,8 @@ class ZebraRfid {
   static Future<dynamic> getReadersList() async {
     try {
       print('awaiting list');
-      var result = await _channel.invokeMethod('getReadersList');
-      print('here the list ' + result);
+      dynamic result = await _channel.invokeMethod('getReadersList');
+      print('here the list ');
       return result;
     } catch (e) {
       var a = e;
@@ -44,7 +44,8 @@ class ZebraRfid {
   ///连接设备
   static Future<dynamic> connectDevice(int connectDevice) async {
     try {
-      var result = await _channel.invokeMethod('connectDevice', {"device": connectDevice});
+      var result = await _channel
+          .invokeMethod('connectDevice', {"device": connectDevice});
       return result;
     } catch (e) {
       var a = e;
