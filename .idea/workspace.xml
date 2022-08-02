@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="758bc1f1-6df0-4113-8566-40a75b90371e" name="Default Changelist" comment="Updated the version">
-      <change beforePath="$PROJECT_DIR$/lib/zebra_rfid.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/zebra_rfid.dart" afterDir="false" />
+    <list default="true" id="758bc1f1-6df0-4113-8566-40a75b90371e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659401240268</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated the version testing">
+      <created>1659441416684</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659441416684</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -111,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated to 0.0.4" />
     <MESSAGE value="Updated the version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the version" />
+    <MESSAGE value="Updated the version testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the version testing" />
   </component>
 </project>

@@ -66,7 +66,6 @@ public class ZebraRfidPlugin implements FlutterPlugin, MethodCallHandler, Stream
                 break;
             case "getReadersList":
                 Log.w(TAG, "getReadersList");
-                Toast.makeText(context, '1', Toast.LENGTH_LONG).show();
                 rfidHandler.getReadersList();
                 break;
 
