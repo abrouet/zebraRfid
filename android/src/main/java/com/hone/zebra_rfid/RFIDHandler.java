@@ -276,19 +276,22 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
     }
 
     ///获取读取器信息
-    public ArrayList<ReaderDevice> getReadersList() {
+    public HashMap<String, Object> getReadersList() {
         Log.d(TAG, "start of getReadersList : " + readers.toString());
-        ArrayList<ReaderDevice> readersListArray = new ArrayList<ReaderDevice>();
+//        ArrayList<ReaderDevice> readersListArray = new ArrayList<ReaderDevice>();
+        HashMap<String, Object> map = new HashMap<>();
         try {
 //            Log.d(TAG, "getReadersList : " + readers.toString());
             readers = new Readers(context, ENUM_TRANSPORT.ALL);
-            readersListArray = readers.GetAvailableRFIDReaderList();
-            return readersListArray;
+            availableRFIDReaderList = readers.GetAvailableRFIDReaderList();
+
+            map.put("devices", availableRFIDReaderList);
+            return map;
         } catch (InvalidUsageException e) {
             Log.d(TAG, "Something went wrong ");
             emit(Base.RfidEngineEvents.Error, transitionEntity(Base.ErrorResult.error(e.getMessage())));
         }
-        return readersListArray;
+        return map;
     }
 
 

@@ -7,16 +7,16 @@ public class Base {
     public static class ErrorResult {
 
         public static ErrorResult error(String errorMessage, int code) {
-            ErrorResult result=new ErrorResult();
-            result.errorMessage=errorMessage;
-            result.code=code;
-             return result;
+            ErrorResult result = new ErrorResult();
+            result.errorMessage = errorMessage;
+            result.code = code;
+            return result;
 
         }
 
-        public  static ErrorResult error(String errorMessage) {
-            ErrorResult result=new ErrorResult();
-            result.errorMessage=errorMessage;
+        public static ErrorResult error(String errorMessage) {
+            ErrorResult result = new ErrorResult();
+            result.errorMessage = errorMessage;
             return result;
         }
 
@@ -24,9 +24,10 @@ public class Base {
         String errorMessage = "";
     }
 
-    public  static  class RfidEngineEvents{
+    public static class RfidEngineEvents {
         static String Error = "Error";
         static String ReadRfid = "ReadRfid";
+        static String RfidDevices = "RfidDevices";
         static String ConnectionStatus = "ConnectionStatus";
     }
 
@@ -43,15 +44,14 @@ public class Base {
     }
 
 
-
-    public static class RfidData{
+    public static class RfidData {
         ///标签id
         public String tagID;
 
         public short antennaID;
         //信号峰值
         public short peakRSSI;
- 
+
         // public String tagDetails; 
         ///操作状态
         public ACCESS_OPERATION_STATUS opStatus;
@@ -67,6 +67,6 @@ public class Base {
         ///分配大小
         public int allocatedSize;
 
-        public int count=0;
+        public int count = 0;
     }
 }

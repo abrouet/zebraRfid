@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:collection';
 
 import 'package:flutter/services.dart';
 import 'package:zebra_rfid/base.dart';
@@ -30,12 +31,10 @@ class ZebraRfid {
   }
 
   ///连接设备
-  static Future<dynamic> getReadersList() async {
+  static Future<HashMap<String, Object>> getReadersList() async {
     try {
       print('awaiting list');
-      dynamic result = await _channel.invokeMethod('getReadersList');
-      print('here the list ');
-      return result;
+      return await _channel.invokeMethod('getReadersList');
     } catch (e) {
       var a = e;
     }
