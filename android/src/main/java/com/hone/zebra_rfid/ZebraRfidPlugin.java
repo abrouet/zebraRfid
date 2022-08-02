@@ -52,6 +52,7 @@ public class ZebraRfidPlugin implements FlutterPlugin, MethodCallHandler, Stream
                 break;
             case "toast":
                 String txt = call.argument("text");
+                Log.w(TAG, "toast");
                 Toast.makeText(context, txt, Toast.LENGTH_LONG).show();
                 break;
             case "connect":
@@ -65,6 +66,7 @@ public class ZebraRfidPlugin implements FlutterPlugin, MethodCallHandler, Stream
                 break;
             case "getReadersList":
                 Log.w(TAG, "getReadersList");
+                Toast.makeText(context, '1', Toast.LENGTH_LONG).show();
                 rfidHandler.getReadersList();
                 break;
 
