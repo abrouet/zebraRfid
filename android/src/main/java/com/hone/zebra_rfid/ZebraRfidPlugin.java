@@ -64,6 +64,7 @@ public class ZebraRfidPlugin implements FlutterPlugin, MethodCallHandler, Stream
                 rfidHandler.ConnectDevice(result, readerDevice);
                 break;
             case "getReadersList":
+                Log.w(TAG, "getReadersList");
                 rfidHandler.getReadersList();
                 break;
 

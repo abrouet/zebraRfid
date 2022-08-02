@@ -277,6 +277,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
 
     ///获取读取器信息
     public ArrayList<ReaderDevice> getReadersList() {
+        Log.d(TAG, "start of getReadersList : " + readers.toString());
         ArrayList<ReaderDevice> readersListArray = new ArrayList<ReaderDevice>();
         try {
             Log.d(TAG, "getReadersList : " + readers.toString());
