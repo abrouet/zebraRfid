@@ -280,7 +280,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
         Log.d(TAG, "start of getReadersList : " + readers.toString());
         ArrayList<ReaderDevice> readersListArray = new ArrayList<ReaderDevice>();
         try {
-            Log.d(TAG, "getReadersList : " + readers.toString());
+//            Log.d(TAG, "getReadersList : " + readers.toString());
             readers = new Readers(context, ENUM_TRANSPORT.ALL);
             readersListArray = readers.GetAvailableRFIDReaderList();
             return readersListArray;
