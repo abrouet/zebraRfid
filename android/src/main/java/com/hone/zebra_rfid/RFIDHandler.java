@@ -280,7 +280,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
         HashMap<String, Object> map = new HashMap<>();
         try {
 //            Log.d(TAG, "getReadersList : " + readers.toString());
-            readers = new Readers(context, ENUM_TRANSPORT.ALL);
+            readers = new Readers(context, ENUM_TRANSPORT.BLUETOOTH);
             availableRFIDReaderList = readers.GetAvailableRFIDReaderList();
 
             map.put("devices", availableRFIDReaderList);
