@@ -74,6 +74,6 @@ public class Base {
         ///标签id
         public String name;
 
-        public Boolean isConnected;
+        public boolean isConnected;
     }
 }
