@@ -276,7 +276,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
     }
 
     ///获取读取器信息
-    public ArrayList<?> getReadersList() {
+    public int getReadersList() {
         try {
             readers = new Readers(context, ENUM_TRANSPORT.BLUETOOTH);
             availableRFIDReaderList = readers.GetAvailableRFIDReaderList();
@@ -287,16 +287,16 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
             } else {
                 Log.v("RFID", "Available number of reader : " + availableRFIDReaderList.size());
 
-                System.out.println(availableRFIDReaderList.get(0));
+                System.out.println(availableRFIDReaderList.get(0).getName());
             }
 
 //            map.put("devices", availableRFIDReaderList);
-            return availableRFIDReaderList;
+            return availableRFIDReaderList.size();
         } catch (InvalidUsageException e) {
             Log.d(TAG, "Something went wrong ");
             emit(Base.RfidEngineEvents.Error, transitionEntity(Base.ErrorResult.error(e.getMessage())));
         }
-        return null;
+        return 0;
     }
 
 
