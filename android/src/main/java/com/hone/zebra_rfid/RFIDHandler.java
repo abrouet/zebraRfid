@@ -289,6 +289,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
                 Log.d(TAG, "FOUND getReadersList : ");
 
             }
+            System.out.println(availableRFIDReaderList);
 
             map.put("devices", availableRFIDReaderList);
             return map;
