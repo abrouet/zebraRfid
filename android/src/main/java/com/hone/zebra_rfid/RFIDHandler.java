@@ -293,7 +293,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
                 for (int i = 0; i < availableRFIDReaderList.size(); i++) {
                     Base.RFIDDevice data = new Base.RFIDDevice();
                     data.name = availableRFIDReaderList.get(0).getName();
-                    data.isConnected = availableRFIDReaderList.get(0).getRFIDReader().isConnected();
+//                    data.isConnected = availableRFIDReaderList.get(0).getRFIDReader().isConnected();
                     availableRFIDReaderName.add(data);
                 }
 
