@@ -54,6 +54,9 @@ public class ZebraRfidPlugin implements FlutterPlugin, MethodCallHandler, Stream
             case "getPlatformVersion":
                 result.success("Android " + android.os.Build.VERSION.RELEASE);
                 break;
+            case "getConnectedDevice":
+                result.success(rfidHandler.getConnectedDevice());
+                break;
             case "toast":
                 String txt = call.argument("text");
                 Log.w(TAG, "toast");

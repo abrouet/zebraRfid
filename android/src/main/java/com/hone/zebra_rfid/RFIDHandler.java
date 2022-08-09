@@ -276,13 +276,22 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
         }
     }
 
+    public String getConnectedDevice() {
+        if (isReaderConnected() && readerDevice != null) {
+            return readerDevice.getName();
+        }
+        return null;
+    }
+
     ///获取读取器信息
     public ArrayList<HashMap<String, Object>> getReadersList() {
         ArrayList<HashMap<String, Object>> datas = new ArrayList<>();
-        String connectedReaderName = "";
+//        String connectedReaderName = "";
 
         try {
-            readers = new Readers(context, ENUM_TRANSPORT.BLUETOOTH);
+            if (readers == null) {
+                readers = new Readers(context, ENUM_TRANSPORT.BLUETOOTH);
+            }
             availableRFIDReaderList = readers.GetAvailableRFIDReaderList();
             if (availableRFIDReaderList.isEmpty()) {
                 Log.d(TAG, "Empty getReadersList : ");
@@ -292,9 +301,9 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
 
                 System.out.println(availableRFIDReaderList.get(0).getName());
                 System.out.println(availableRFIDReaderList.get(0).getRFIDReader().isConnected());
-                if (isReaderConnected() && readerDevice != null) {
-                    connectedReaderName = readerDevice.getName();
-                }
+//                if (isReaderConnected() && readerDevice != null) {
+//                    connectedReaderName = readerDevice.getName();
+//                }
 
                 for (int i = 0; i < availableRFIDReaderList.size(); i++) {
 
@@ -302,9 +311,9 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
                     Base.RFIDDevice data = new Base.RFIDDevice();
                     data.name = availableRFIDReaderList.get(0).getName();
 
-                    if (connectedReaderName.equals(availableRFIDReaderList.get(0).getName())) {
-                        data.isConnected = true;
-                    }
+//                    if (connectedReaderName.equals(availableRFIDReaderList.get(0).getName())) {
+//                        data.isConnected = true;
+//                    }
                     datas.add(transitionEntity(data));
                 }
 
