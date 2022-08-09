@@ -69,4 +69,11 @@ public class Base {
 
         public int count = 0;
     }
+
+    public static class RFIDDevice {
+        ///标签id
+        public String name;
+
+        public Boolean isConnected;
+    }
 }

@@ -46,7 +46,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
     private AsyncTask<Void, Void, String> AutoConnectDeviceTask;
     private static Readers readers;
     private static ArrayList<ReaderDevice> availableRFIDReaderList;
-    private static HashMap<String, Boolean> availableRFIDReaderName = new HashMap<>();
+    private static ArrayList<Base.RFIDDevice> availableRFIDReaderName;
     private static ReaderDevice readerDevice;
     private static RFIDReader reader;
     private int MAX_POWER = 270;
@@ -277,7 +277,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
     }
 
     ///获取读取器信息
-    public HashMap<String, Boolean> getReadersList() {
+    public ArrayList<Base.RFIDDevice> getReadersList() {
         try {
             readers = new Readers(context, ENUM_TRANSPORT.BLUETOOTH);
             availableRFIDReaderList = readers.GetAvailableRFIDReaderList();
@@ -291,7 +291,10 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
                 System.out.println(availableRFIDReaderList.get(0).getName());
                 System.out.println(availableRFIDReaderList.get(0).getRFIDReader().isConnected());
                 for (int i = 0; i < availableRFIDReaderList.size(); i++) {
-                    availableRFIDReaderName.put(availableRFIDReaderList.get(0).getName(), availableRFIDReaderList.get(0).getRFIDReader().isConnected());
+                    Base.RFIDDevice data = new Base.RFIDDevice();
+                    data.name = availableRFIDReaderList.get(0).getName();
+                    data.isConnected = availableRFIDReaderList.get(0).getRFIDReader().isConnected();
+                    availableRFIDReaderName.add(data);
                 }
 
             }
