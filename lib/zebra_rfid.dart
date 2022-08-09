@@ -31,7 +31,7 @@ class ZebraRfid {
   }
 
   ///连接设备
-  static Future<int> getReadersList() async {
+  static Future<dynamic> getReadersList() async {
     try {
       print('awaiting list');
       return await _channel.invokeMethod('getReadersList');
