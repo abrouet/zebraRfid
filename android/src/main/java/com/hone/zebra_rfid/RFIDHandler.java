@@ -79,8 +79,8 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
     public void connect(final Result result) {
         Readers.attach(this);
         if (readers == null) {
-            readers = new Readers(context, ENUM_TRANSPORT.ALL);
-            //readers = new Readers(context, ENUM_TRANSPORT.SERVICE_SERIAL);
+//            readers = new Readers(context, ENUM_TRANSPORT.BLUETOOTH);
+            readers = new Readers(context, ENUM_TRANSPORT.SERVICE_SERIAL);
         }
         AutoConnectDevice(result);
     }
@@ -177,7 +177,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
                             readerDevice = readersListArray.get(0);
                             reader = readerDevice.getRFIDReader();
                         } else {
-                            return "没有检查到可连接设备";
+                            return "No connectable device detected";
                         }
                     }
 
@@ -285,7 +285,8 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
                 Log.d(TAG, "Empty getReadersList : ");
 
             } else {
-                Log.d(TAG, "FOUND getReadersList : ");
+                Log.v("RFID", "Available number of reader : " + availableRFIDReaderList.size());
+
                 System.out.println(availableRFIDReaderList.get(0));
             }
 
