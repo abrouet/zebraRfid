@@ -15,6 +15,7 @@ import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
@@ -29,7 +30,7 @@ public class ZebraRfidPlugin implements FlutterPlugin, MethodCallHandler, Stream
     private EventChannel eventChannel;
     private RFIDHandler rfidHandler;
     private Context context;
-    private HashMap<String, Object> availableDevices = new HashMap<>();
+    private ArrayList<?> availableDevices;
     private EventChannel.EventSink sink = null;
 
     private String TAG = "ZebraRfidPlugin";
