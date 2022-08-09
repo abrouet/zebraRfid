@@ -279,6 +279,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
     ///获取读取器信息
     public ArrayList<HashMap<String, Object>> getReadersList() {
         ArrayList<HashMap<String, Object>> datas = new ArrayList<>();
+        String connectedReaderName = "";
 
         try {
             readers = new Readers(context, ENUM_TRANSPORT.BLUETOOTH);
@@ -291,10 +292,19 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
 
                 System.out.println(availableRFIDReaderList.get(0).getName());
                 System.out.println(availableRFIDReaderList.get(0).getRFIDReader().isConnected());
+                if (isReaderConnected() && readerDevice != null) {
+                    connectedReaderName = readerDevice.getName();
+                }
+
                 for (int i = 0; i < availableRFIDReaderList.size(); i++) {
+
+
                     Base.RFIDDevice data = new Base.RFIDDevice();
                     data.name = availableRFIDReaderList.get(0).getName();
-                    data.isConnected = availableRFIDReaderList.get(0).getRFIDReader().isConnected();
+
+                    if (connectedReaderName.equals(availableRFIDReaderList.get(0).getName())) {
+                        data.isConnected = true;
+                    }
                     datas.add(transitionEntity(data));
                 }
 
