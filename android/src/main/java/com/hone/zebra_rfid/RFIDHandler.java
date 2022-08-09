@@ -46,7 +46,7 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
     private AsyncTask<Void, Void, String> AutoConnectDeviceTask;
     private static Readers readers;
     private static ArrayList<ReaderDevice> availableRFIDReaderList;
-    private static ArrayList<Base.RFIDDevice> availableRFIDReaderName;
+    private static ArrayList<Base.RFIDDevice> availableRFIDReaderName = new ArrayList<>();
     private static ReaderDevice readerDevice;
     private static RFIDReader reader;
     private int MAX_POWER = 270;
