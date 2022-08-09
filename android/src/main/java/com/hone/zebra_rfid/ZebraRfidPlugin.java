@@ -30,7 +30,7 @@ public class ZebraRfidPlugin implements FlutterPlugin, MethodCallHandler, Stream
     private EventChannel eventChannel;
     private RFIDHandler rfidHandler;
     private Context context;
-    private ArrayList<Base.RFIDDevice> availableDevices;
+    private ArrayList<HashMap<String, Object>> availableDevices;
     private EventChannel.EventSink sink = null;
 
     private String TAG = "ZebraRfidPlugin";
