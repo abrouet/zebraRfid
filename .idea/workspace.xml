@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="758bc1f1-6df0-4113-8566-40a75b90371e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/RFIDHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/RFIDHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/ZebraRfidPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/ZebraRfidPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/base.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/base.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/base.g.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660057426351</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated the base">
+      <created>1660067800112</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660067800112</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -144,6 +150,7 @@
     <MESSAGE value="Updated to 0.0.4" />
     <MESSAGE value="Updated the version" />
     <MESSAGE value="Updated the version testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the version testing" />
+    <MESSAGE value="Updated the base" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the base" />
   </component>
 </project>

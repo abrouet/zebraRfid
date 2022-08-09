@@ -29,6 +29,18 @@ Map<String, dynamic> _$RfidDataToJson(RfidData instance) => <String, dynamic>{
       'allocatedSize': instance.allocatedSize,
     };
 
+RFIDDevice _$RFIDDeviceFromJson(Map<String, dynamic> json) {
+  return RFIDDevice()
+    ..name = json['name'] as String
+    ..isConnected = json['isConnected'] as bool;
+}
+
+Map<String, dynamic> _$RFIDDeviceToJson(RFIDDevice instance) =>
+    <String, dynamic>{
+      'name': instance.name,
+      'isConnected': instance.isConnected,
+    };
+
 ErrorResult _$ErrorResultFromJson(Map<String, dynamic> json) {
   return ErrorResult()
     ..code = json['code'] as int

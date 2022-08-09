@@ -1,4 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
+
 part 'base.g.dart';
 
 typedef ErrorCallback = void Function(ErrorResult err);
@@ -64,6 +65,7 @@ class RfidData {
   String tagID;
 
   int antennaID;
+
   //信号峰值
   int peakRSSI;
 
@@ -88,7 +90,24 @@ class RfidData {
 
   factory RfidData.fromJson(Map<dynamic, dynamic> json) =>
       _$RfidDataFromJson(json);
+
   Map<String, dynamic> toJson() => _$RfidDataToJson(this);
+}
+
+///标签数据
+@JsonSerializable()
+class RFIDDevice {
+  RFIDDevice();
+
+  ///标签id
+  String name;
+
+  bool isConnected;
+
+  factory RFIDDevice.fromJson(Map<dynamic, dynamic> json) =>
+      _$RFIDDeviceFromJson(json);
+
+  Map<String, dynamic> toJson() => _$RFIDDeviceToJson(this);
 }
 
 @JsonSerializable()
@@ -100,5 +119,6 @@ class ErrorResult {
 
   factory ErrorResult.fromJson(Map<String, dynamic> json) =>
       _$ErrorResultFromJson(json);
+
   Map<String, dynamic> toJson() => _$ErrorResultToJson(this);
 }
