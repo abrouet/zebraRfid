@@ -279,9 +279,16 @@ public class RFIDHandler implements Readers.RFIDReaderEventHandler {
     public HashMap<String, Object> getReadersList() {
         HashMap<String, Object> map = new HashMap<>();
         try {
-            Log.d(TAG, "getReadersList : ");
             readers = new Readers(context, ENUM_TRANSPORT.BLUETOOTH);
             availableRFIDReaderList = readers.GetAvailableRFIDReaderList();
+
+            if (availableRFIDReaderList.isEmpty()) {
+                Log.d(TAG, "Empty getReadersList : ");
+
+            } else {
+                Log.d(TAG, "FOUND getReadersList : ");
+
+            }
 
             map.put("devices", availableRFIDReaderList);
             return map;
