@@ -1,0 +1,126 @@
+Index: .idea/libraries/Dart_SDK.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Dart SDK\">\r\n    <CLASSES>\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/async\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/cli\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/collection\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/convert\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/core\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/developer\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/ffi\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/html\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/indexed_db\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/io\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/isolate\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/js\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/js_util\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/math\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/mirrors\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/svg\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/typed_data\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/web_audio\" />\r\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/web_gl\" />\r\n    </CLASSES>\r\n    <JAVADOC />\r\n    <SOURCES />\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Dart_SDK.xml b/.idea/libraries/Dart_SDK.xml
+--- a/.idea/libraries/Dart_SDK.xml	(revision 6c654182897c4b8bca6175c04cce19b88655df9e)
++++ b/.idea/libraries/Dart_SDK.xml	(date 1670869474014)
+@@ -1,25 +1,26 @@
+ <component name="libraryTable">
+   <library name="Dart SDK">
+     <CLASSES>
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/async" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/cli" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/collection" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/convert" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/core" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/developer" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/ffi" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/html" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/indexed_db" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/io" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/isolate" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/js" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/js_util" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/math" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/mirrors" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/svg" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/typed_data" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/web_audio" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/web_gl" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/async" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/cli" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/collection" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/convert" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/core" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/developer" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/ffi" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/html" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/indexed_db" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/io" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/isolate" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/js" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/js_util" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/math" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/mirrors" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/svg" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/typed_data" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/web_audio" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/web_gl" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/web_sql" />
+     </CLASSES>
+     <JAVADOC />
+     <SOURCES />
+Index: android/.idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/android/.idea/compiler.xml b/android/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1670869346703)
++++ b/android/.idea/compiler.xml	(date 1670869346703)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <bytecodeTargetLevel target="1.8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: android/.idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/android/.idea/jarRepositories.xml b/android/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(date 1670869392495)
++++ b/android/.idea/jarRepositories.xml	(date 1670869392495)
+@@ -0,0 +1,25 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="BintrayJCenter" />
++      <option name="name" value="BintrayJCenter" />
++      <option name="url" value="https://jcenter.bintray.com/" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="Google" />
++      <option name="name" value="Google" />
++      <option name="url" value="https://dl.google.com/dl/android/maven2/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: android/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/android/.idea/vcs.xml b/android/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1670869418051)
++++ b/android/.idea/vcs.xml	(date 1670869418051)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file

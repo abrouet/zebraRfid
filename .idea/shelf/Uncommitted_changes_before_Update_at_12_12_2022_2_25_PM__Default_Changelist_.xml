@@ -1,0 +1,44 @@
+<changelist name="Uncommitted_changes_before_Update_at_12_12_2022_2_25_PM_[Default_Changelist]" date="1670869522795" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2022_2_25_PM_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 12/12/2022 2:25 PM [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="android/.idea/caches/gradle_models.ser" />
+    <option name="AFTER_PATH" value="android/.idea/caches/gradle_models.ser" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2022_2_25_PM_[Default_Changelist]/gradle_models.ser" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+    <option name="AFTER_PATH" value="example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2022_2_25_PM_[Default_Changelist]/ic_launcher.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="android/.idea/caches/build_file_checksums.ser" />
+    <option name="AFTER_PATH" value="android/.idea/caches/build_file_checksums.ser" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2022_2_25_PM_[Default_Changelist]/build_file_checksums.ser" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+    <option name="AFTER_PATH" value="example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2022_2_25_PM_[Default_Changelist]/ic_launcher1.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+    <option name="AFTER_PATH" value="example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2022_2_25_PM_[Default_Changelist]/ic_launcher2.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="example/android/RFIDAPI3Library/RFIDAPI3Library.aar" />
+    <option name="AFTER_PATH" value="example/android/RFIDAPI3Library/RFIDAPI3Library.aar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2022_2_25_PM_[Default_Changelist]/RFIDAPI3Library.aar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+    <option name="AFTER_PATH" value="example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2022_2_25_PM_[Default_Changelist]/ic_launcher3.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+    <option name="AFTER_PATH" value="example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_12_2022_2_25_PM_[Default_Changelist]/ic_launcher4.png" />
+  </binary>
+</changelist>

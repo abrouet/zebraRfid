@@ -1,0 +1,183 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"NONE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"758bc1f1-6df0-4113-8566-40a75b90371e\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/RFIDHandler.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/RFIDHandler.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/ZebraRfidPlugin.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/ZebraRfidPlugin.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/lib/zebra_rfid.dart\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lib/zebra_rfid.dart\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ComposerSettings\">\n    <execution />\n  </component>\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"device_and_snapshot_combo_box_target[/Users/asabrouet/.android/avd/Asa.avd]\" />\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"28wrMq3Bx8np0oaR8KeQevFP6BB\" />\n  <component name=\"ProjectView\">\n    <navigator currentView=\"ProjectPane\" proportions=\"\" version=\"1\" />\n    <panes>\n      <pane id=\"ProjectPane\">\n        <option name=\"show-excluded-files\" value=\"false\" />\n      </pane>\n    </panes>\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n    <option name=\"showMembers\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"dart.analysis.tool.window.force.activate\" value=\"true\" />\n    <property name=\"dart.analysis.tool.window.visible\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/android\" />\n    <property name=\"show.migrate.to.gradle.popup\" value=\"false\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/android\" />\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task id=\"LOCAL-00001\" summary=\"Updated to 0.0.4\">\n      <created>1651020313674</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1651020313674</updated>\n    </task>\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"758bc1f1-6df0-4113-8566-40a75b90371e\" name=\"Default Changelist\" comment=\"\" />\n      <created>1652138445213</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1652138445213</updated>\n      <workItem from=\"1652138451092\" duration=\"61000\" />\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Updated the version\">\n      <created>1659401033195</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1659401033196</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Updated the version\">\n      <created>1659401240268</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1659401240268</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Updated the version testing\">\n      <created>1659441416684</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1659441416684</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Updated the version testing\">\n      <created>1659444852482</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1659444852482</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Updated the version testing\">\n      <created>1659447650346</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1659447650346</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"Updated the version testing\">\n      <created>1660057426351</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1660057426351</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"Updated the base\">\n      <created>1660067800112</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1660067800112</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"Updated the rfiddevice\">\n      <created>1660068662600</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1660068662600</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"Upda\">\n      <created>1660069040129</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1660069040129</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"Upda\">\n      <created>1660069653791</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1660069653791</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"12\" />\n    <servers />\n  </component>\n  <component name=\"ToolWindowManager\">\n    <editor active=\"true\" />\n    <layout>\n      <window_info id=\"Project\" active=\"true\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"true\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"combo\" />\n    </layout>\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Updated to 0.0.4\" />\n    <MESSAGE value=\"Updated the version\" />\n    <MESSAGE value=\"Updated the version testing\" />\n    <MESSAGE value=\"Updated the base\" />\n    <MESSAGE value=\"Updated the rfiddevice\" />\n    <MESSAGE value=\"Upda\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Upda\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 6c654182897c4b8bca6175c04cce19b88655df9e)
++++ b/.idea/workspace.xml	(date 1681311749232)
+@@ -5,9 +5,64 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="758bc1f1-6df0-4113-8566-40a75b90371e" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/example_lib_main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/example_lib_main_dart.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gitignore" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/android/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/.name" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/caches/build_file_checksums.ser" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/android/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/caches/gradle_models.ser" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/android/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/codeStyles/Project.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/Base.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/RFIDHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/RFIDHandler.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/ZebraRfidPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/hone/zebra_rfid/ZebraRfidPlugin.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/example/.gitignore" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/example/.metadata" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/README.md" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/.gitignore" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/RFIDAPI3Library/RFIDAPI3Library.aar" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/RFIDAPI3Library/RFIDAPI3Library.aar" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/RFIDAPI3Library/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/RFIDAPI3Library/build.gradle" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/java/com/hone/zebra_rfid_example/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/java/com/hone/zebra_rfid_example/MainActivity.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/values/styles.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/build.gradle" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/settings.gradle" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/example/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/test/widget_test.dart" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lib/base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/base.dart" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/lib/base.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/base.g.dart" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/lib/zebra_rfid.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/zebra_rfid.dart" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/test/zebra_rfid_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/zebra_rfid_test.dart" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/zebra_rfid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zebra_rfid.iml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -17,7 +72,7 @@
+   <component name="ComposerSettings">
+     <execution />
+   </component>
+-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/asabrouet/.android/avd/Asa.avd]" />
++  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\asali\.android\avd\Pixel_3_API_30.avd]" />
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+@@ -27,6 +82,9 @@
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProjectId" id="28wrMq3Bx8np0oaR8KeQevFP6BB" />
++  <component name="ProjectLevelVcsManager">
++    <OptionsSetting value="false" id="Update" />
++  </component>
+   <component name="ProjectView">
+     <navigator currentView="ProjectPane" proportions="" version="1" />
+     <panes>
+@@ -46,7 +104,7 @@
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="dart.analysis.tool.window.force.activate" value="true" />
+     <property name="dart.analysis.tool.window.visible" value="false" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/android" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chpa-flutter-app" />
+     <property name="show.migrate.to.gradle.popup" value="false" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+Index: zebra_rfid.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module type=\"JAVA_MODULE\" version=\"4\">\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\n    <exclude-output />\n    <content url=\"file://$MODULE_DIR$\">\n      <sourceFolder url=\"file://$MODULE_DIR$/lib\" isTestSource=\"false\" />\n      <excludeFolder url=\"file://$MODULE_DIR$/.dart_tool\" />\n      <excludeFolder url=\"file://$MODULE_DIR$/.idea\" />\n      <excludeFolder url=\"file://$MODULE_DIR$/.pub\" />\n      <excludeFolder url=\"file://$MODULE_DIR$/build\" />\n      <excludeFolder url=\"file://$MODULE_DIR$/example/.pub\" />\n      <excludeFolder url=\"file://$MODULE_DIR$/example/build\" />\n    </content>\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n    <orderEntry type=\"library\" name=\"Dart SDK\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Flutter Plugins\" level=\"project\" />\n  </component>\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/zebra_rfid.iml b/zebra_rfid.iml
+--- a/zebra_rfid.iml	(revision 6c654182897c4b8bca6175c04cce19b88655df9e)
++++ b/zebra_rfid.iml	(date 1681311749223)
+@@ -9,10 +9,12 @@
+       <excludeFolder url="file://$MODULE_DIR$/.pub" />
+       <excludeFolder url="file://$MODULE_DIR$/build" />
+       <excludeFolder url="file://$MODULE_DIR$/example/.pub" />
++      <excludeFolder url="file://$MODULE_DIR$/example/.dart_tool" />
+       <excludeFolder url="file://$MODULE_DIR$/example/build" />
+     </content>
+     <orderEntry type="sourceFolder" forTests="false" />
+     <orderEntry type="library" name="Dart SDK" level="project" />
+     <orderEntry type="library" name="Flutter Plugins" level="project" />
++    <orderEntry type="library" name="Dart Packages" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: .idea/libraries/Dart_SDK.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\n  <library name=\"Dart SDK\">\n    <CLASSES>\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/async\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/cli\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/collection\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/convert\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/core\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/developer\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/ffi\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/html\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/indexed_db\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/io\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/isolate\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/js\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/js_util\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/math\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/mirrors\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/svg\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/typed_data\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/web_audio\" />\n      <root url=\"file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/web_gl\" />\n    </CLASSES>\n    <JAVADOC />\n    <SOURCES />\n  </library>\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/Dart_SDK.xml b/.idea/libraries/Dart_SDK.xml
+--- a/.idea/libraries/Dart_SDK.xml	(revision 6c654182897c4b8bca6175c04cce19b88655df9e)
++++ b/.idea/libraries/Dart_SDK.xml	(date 1674235743236)
+@@ -1,25 +1,26 @@
+ <component name="libraryTable">
+   <library name="Dart SDK">
+     <CLASSES>
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/async" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/cli" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/collection" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/convert" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/core" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/developer" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/ffi" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/html" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/indexed_db" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/io" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/isolate" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/js" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/js_util" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/math" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/mirrors" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/svg" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/typed_data" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/web_audio" />
+-      <root url="file://$USER_HOME$/src/flutter/bin/cache/dart-sdk/lib/web_gl" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/async" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/cli" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/collection" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/convert" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/core" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/developer" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/ffi" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/html" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/indexed_db" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/io" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/isolate" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/js" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/js_util" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/math" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/mirrors" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/svg" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/typed_data" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/web_audio" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/web_gl" />
++      <root url="file://$PROJECT_DIR$/../pas-capture/.fvm/flutter_sdk/bin/cache/dart-sdk/lib/web_sql" />
+     </CLASSES>
+     <JAVADOC />
+     <SOURCES />
