@@ -9,24 +9,24 @@ class ZebraRfid {
       const MethodChannel('com.hone.zebraRfid/plugin');
   static const EventChannel _eventChannel =
       const EventChannel('com.hone.zebraRfid/event_channel');
-  static ZebraEngineEventHandler _handler;
+  static ZebraEngineEventHandler? _handler;
 
   static Future<String> get platformVersion async {
     final String version = await _channel.invokeMethod('getPlatformVersion');
     return version;
   }
 
-  static Future<String> toast(String text) async {
+  static Future<Future> toast(String text) async {
     return _channel.invokeMethod('toast', {"text": text});
   }
 
   ///
-  static Future<String> onRead() async {
+  static Future<Future> onRead() async {
     return _channel.invokeMethod('startRead');
   }
 
   ///写
-  static Future<String> write() async {
+  static Future<Future> write() async {
     return _channel.invokeMethod('write');
   }
 
@@ -73,7 +73,7 @@ class ZebraRfid {
   }
 
   ///断开设备
-  static Future<String> disconnect() async {
+  static Future<Future> disconnect() async {
     return _channel.invokeMethod('disconnect');
   }
 
@@ -86,7 +86,8 @@ class ZebraRfid {
     _handler = handler;
   }
 
-  static StreamSubscription<dynamic> _sink;
+  static late StreamSubscription<dynamic> _sink;
+
 
   static Future<void> _addEventChannelHandler() async {
     if (_sink == null) {
@@ -100,8 +101,8 @@ class ZebraRfid {
   }
 
   ///连接设备
-  static Future<String> dispose() async {
-    _sink = null;
+  static Future<Future> dispose() async {
+    // _sink = null;
     return _channel.invokeMethod('dispose');
   }
 }

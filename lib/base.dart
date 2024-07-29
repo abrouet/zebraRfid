@@ -13,13 +13,13 @@ class ZebraEngineEventHandler {
       this.connectionStatusCallback});
 
   ///读取rfid标签回调
-  ReadRfidCallback readRfidCallback;
+  ReadRfidCallback? readRfidCallback;
 
   ///连接状态
-  ConnectionStatusCallback connectionStatusCallback;
+  ConnectionStatusCallback? connectionStatusCallback;
 
   ///异常错误回调
-  ErrorCallback errorCallback;
+  ErrorCallback? errorCallback;
 
   // ignore: public_member_api_docs
   void process(String eventName, Map<String, dynamic> map) {
@@ -34,12 +34,12 @@ class ZebraEngineEventHandler {
         break;
       case 'Error':
         var ss = ErrorResult.fromJson(map);
-        errorCallback.call(ss);
+        errorCallback!.call(ss);
         break;
       case 'ConnectionStatus':
         ReaderConnectionStatus status =
             ReaderConnectionStatus.values[map["status"] as int];
-        connectionStatusCallback.call(status);
+        connectionStatusCallback!.call(status);
         break;
     }
   }
@@ -62,49 +62,51 @@ class RfidData {
   RfidData();
 
   ///标签id
-  String tagID;
+  String? tagID;
 
-  int antennaID;
+  int? antennaID;
 
   //信号峰值
-  int peakRSSI;
+  int? peakRSSI;
 
   // public String tagDetails;
   ///操作状态
   // ACCESS_OPERATION_STATUS opStatus;
 
   ///相对距离
-  int relativeDistance;
+  int? relativeDistance;
 
   ///识别次数
-  int count = 0;
+  int? count = 0;
 
   ///存储数据
-  String memoryBankData;
+  String? memoryBankData;
 
   ///永久锁定数据
-  String lockData;
+  String? lockData;
 
   ///分配大小
-  int allocatedSize;
+  int? allocatedSize;
 
-  factory RfidData.fromJson(Map<dynamic, dynamic> json) =>
+  factory RfidData.fromJson(Map<String, dynamic> json) =>
       _$RfidDataFromJson(json);
 
-  Map<String, dynamic> toJson() => _$RfidDataToJson(this);
+  Map<String?, dynamic> toJson() => _$RfidDataToJson(this);
 }
 
 ///标签数据
 @JsonSerializable()
 class RFIDDevice {
+
+  bool isConnected = false;
   RFIDDevice();
 
   ///标签id
-  String name;
+  String? name;
 
-  bool isConnected;
+  // bool isConnected;
 
-  factory RFIDDevice.fromJson(Map<dynamic, dynamic> json) =>
+  factory RFIDDevice.fromJson(Map<String, dynamic> json) =>
       _$RFIDDeviceFromJson(json);
 
   Map<String, dynamic> toJson() => _$RFIDDeviceToJson(this);
